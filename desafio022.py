@@ -1,0 +1,8 @@
+nomeCompleto = input('Digite seu nome Completo: ')
+nomeSspace = nomeCompleto.replace(' ', '')
+nomeDividido = nomeCompleto.split()
+print('O nome Digitado:', nomeCompleto)
+print('Maiusculas: ', nomeCompleto.upper())
+print('Minusculas: ', nomeCompleto.lower())
+print('Qtde Caracteres (Sem espaços): ', len(nomeSspace))
+print('Qtde Caracteres 1º Nome: ',len(nomeDividido[0]))
